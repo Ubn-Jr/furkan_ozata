@@ -3,16 +3,16 @@ package main
 import "fmt"
 
 func main() {
-	math(8)
+	onaIkiyeBolunebilme(24)
 
 }
 
-func math(x int) {
+func onaIkiyeBolunebilme(x int) {
 
-	if x%2 == 0 {
-		fmt.Println("sayi cift")
+	if x%4 == 0 && x%3 == 0 {
+		fmt.Println("sayi 12' ye tam bolunur")
 	} else {
-		fmt.Println("sayi tek")
+		fmt.Println("sayi 12' ye tam bolunmez")
 	}
 
 }
