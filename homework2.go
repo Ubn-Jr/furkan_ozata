@@ -11,6 +11,7 @@ func main() {
 func totalDonation(donations [9]int) {
 	var requiredDonation = 25000
 	var collectedMoney int = 0
+	// 9 yerine gerekli arrayın len() ile uzunluğunu kullanalım
 	for i := 0; i < 9; i++ {
 
 		var incomingDonation int = donations[i]
